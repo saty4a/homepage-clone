@@ -2,7 +2,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import NavBar from "./NavBar";
 import NavElements from "./NavElements";
-import { FaBars } from "react-icons/fa";
+import { FaBars } from "react-icons/fa6";
 import { FaXmark } from "react-icons/fa6";
 import logo from "../assets/logo.png";
 

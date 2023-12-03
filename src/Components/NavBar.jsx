@@ -1,7 +1,7 @@
 import React from "react";
 import NavElements from "./NavElements";
 
-const NavBar = () => {
+const NavBar = ({navAnimation}) => {
   return (
     <div
       className={`h-[100vh] w-full top-20 fixed right-0 text-white z-20`}

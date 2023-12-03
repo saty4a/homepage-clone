@@ -8,7 +8,7 @@ const NavElements = (props) => {
                 <li><a className="nav-elements" href="#">FAQ</a></li>
                 <li><a className="nav-elements" href="#">Pricing</a></li>
                 <li><a className="nav-elements" href="#">Testimonials</a></li>
-                <li className=""><button className="bg-indigo-500 font-medium py-2 text-white rounded-lg w-[15rem] border hover:border-black md:w-[20rem] lg:w-[10rem] lg:bg-white lg:text-black">Buy Template</button></li>
+                <li className=""><button className="bg-indigo-500 font-medium py-2 text-white rounded-lg w-[15rem] border hover:border-black shadow hover:shadow-lg md:w-[20rem] lg:w-[10rem] lg:bg-white lg:text-black">Buy Template</button></li>
         </ul>
     )
 }

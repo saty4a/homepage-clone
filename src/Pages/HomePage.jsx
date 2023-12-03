@@ -23,7 +23,7 @@ const HomePage = () => {
           <span className="">Get Started</span>
           <FaRegCirclePlay className="z-50 getStarted-btn__text" size={25} />
         </button>
-        <button className="flex justify-center items-center gap-2 bg-white py-2 rounded-xl w-[18rem] border hover:border-black md:w-[24rem] lg:w-[10rem]">
+        <button className="flex justify-center items-center gap-2 bg-white py-2 rounded-xl w-[18rem] border hover:border-black shadow hover:shadow-lg md:w-[24rem] lg:w-[10rem]">
           <span>Whatch Demo</span>
           <FaCirclePlay className="" size={25} />
         </button>
