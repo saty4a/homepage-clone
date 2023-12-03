@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(253, 242, 236);
+}
+
+.background-navBar {
+  background-color: rgb(253, 242, 236);
+}
+
+.strategic-text-color {
+  color: rgb(254, 129, 98);
+}
+
+.subheading-color {
+  color: rgb(118, 117, 117);
+}
+
+.nav-elements:hover {
+  color: blueviolet;
+}
+
+.slide-in-done {
+  animation: slide-in 600ms;
+}
+
+.slide-out-done {
+  animation: slide-out 600ms;
+}
+
+.getStarted-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  color: #fff;
+  transition: width 0.3s ease-in-out;
+  padding: 0.5rem;
+}
+
+.getStarted-btn__text {
+  max-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  color: white;
+  transition: max-width 0.3s ease-in-out;
+  transition: margin-left 0.3s ease-in-out;
+}
+
+.getStarted-btn:hover .getStarted-btn__text {
+  margin-left: 0.5rem;
+  max-width: 15rem;
+}
+
+.image-shadow {
+  background: #eee;
+  box-shadow: 0 20px 10px -5px #ccc
+}
+
+.button-shadow:hover {
+  box-shadow: 0 0 5px 5px lightblue
+}
+
+@keyframes slide-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translatey(4rem);
+  }
+}
+
+@keyframes slide-out {
+  0% {
+    opacity: 0;
+    transform: translatey(4rem);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  section {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+}
